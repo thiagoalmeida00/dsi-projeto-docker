@@ -1,0 +1,93 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
+}
+
+h1 {
+  font-size: 48.83px;
+  font-family: "Georgia", sans-serif;
+}
+h4 {
+  font-size: 25px;
+  font-family: "Avenir Book", sans-serif;
+
+  font-weight: lighter;
+}
+.btn,
+.btn-primary {
+  box-shadow: none !important;
+}
+
+.btn-primary {
+  transition: all 1s;
+  &:hover {
+    background: #273f75;
+  }
+  &:active {
+    background: #111b36;
+  }
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #000614;
+  font-family: "Avenir Roman", sans-serif;
+}
+.fw-ligth {
+  font-weight: 300;
+}
+
+.link-blue {
+  color: #5367d3;
+  transition: 0.4s;
+
+  &:hover {
+    filter: brightness(70%);
+  }
+}
+
+.btn {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+
+.btn-outline {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #5367d3;
+  border: 1px solid #5367d3;
+  border-radius: 4px;
+  &:hover {
+    border: 1px solid #273f75;
+    color: #273f75;
+  }
+  &:active {
+    border: 1px solid #111b36;
+    color: #111b36;
+  }
+}
+
+.link {
+  transition: 0.4s;
+
+  &:hover {
+    filter: brightness(70%);
+  }
+}
+
+.warning-color {
+  color: #ec882b;
+}
